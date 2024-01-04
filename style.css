@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  } */
+  
+
+  /* .dis2{
+    width: 20px;
+    border: 2px solid black;
+    background-color: white;
+  } */
+  .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    position: relative;
+    max-width: 50%;
+    border-radius: 8px;
+    border: #f4f4f4;
+  }
+
+  .figcaption{
+    position:absolute;
+    top: 50%;
+    bottom: 50%;
+    left:40%;
+    border: 2px solid black;
+    background-color: white;
+  }
+  
+  .product-info {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .product-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 20px;
+    color: #111111;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #131212;
+    margin-bottom: 20px;
+  }
+  
+  .cart-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #080808;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .wish-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+   background-color: transparent;
+    color: #0c0c0c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  .cart-btn:hover {
+    background-color: #0056b3;
+  }
+  
+ @media screen and (max-width: 768px) {
+    .product {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .product img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .product-info {
+      padding: 0;
+    }
+  
+    .product-info h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .price {
+      font-size: 18px;
+    }
+  
+    .description {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+}
